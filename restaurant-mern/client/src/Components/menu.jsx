@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import "./Menu.css";
+import "./menu.css";
 
 function Menu({ onOrder }) {
   const [foods, setFoods] = useState([]);
