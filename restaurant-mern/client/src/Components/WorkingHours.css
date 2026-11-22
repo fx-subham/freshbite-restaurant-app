@@ -1,0 +1,58 @@
+
+.working-hours {
+  padding: 45px 8%;
+  text-align: center;
+  background: #f1f8fc;
+}
+
+.working-hours h2 {
+  font-size: 30px;
+  color: #263238;
+}
+
+.hours-subtitle {
+  color: #617078;
+  margin-bottom: 28px;
+}
+
+.hours-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e9ec;
+  font-size: 14px;
+}
+
+.hours-row:last-child {
+  border-bottom: none;
+}
+
+.hours-row span:first-child {
+  font-weight: bold;
+  color: #287a75;
+}
+
+.hours-row span:last-child {
+  color: #52616b;
+}
+
+@media (max-width: 480px) {
+  .hours-card {
+    padding: 8px 14px;
+  }
+
+  .hours-row {
+    font-size: 12px;
+    gap: 8px;
+  }
+}

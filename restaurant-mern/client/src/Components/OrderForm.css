@@ -1,0 +1,95 @@
+
+.order-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  overflow-y: auto;
+}
+
+.order-form {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 28px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.order-form h2 {
+  margin-top: 0;
+  color: #287a75;
+}
+
+.selected-food {
+  margin-bottom: 22px;
+  color: #617078;
+}
+
+.order-form label {
+  display: block;
+  margin: 14px 0 7px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.order-form input,
+.order-form textarea {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #d5dce0;
+  border-radius: 5px;
+  font: inherit;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
+  outline: 2px solid #9acbc6;
+  border-color: #287a75;
+}
+
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 5px 9px;
+  border: none;
+  background: #edf3f3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 0;
+  font-size: 18px;
+}
+
+.order-total strong {
+  color: #287a75;
+}
+
+.place-order-btn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  background: #287a75;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.place-order-btn:hover {
+  background: #1d5e59;
+}
+    
